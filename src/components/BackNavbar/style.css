@@ -1,0 +1,16 @@
+.sectionNav {
+  display: flex;
+  align-items: start;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  transition: .5s ease;
+
+  &:hover {
+    color: black;
+  }
+}
+
+.items {
+  display: flex;
+}
