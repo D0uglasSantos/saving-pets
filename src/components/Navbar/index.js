@@ -74,27 +74,30 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ms-auto my-2 my-lg-0">
-            <li className="nav-item">
-              <a className="nav-link" href="#about">
-                Sobre Nós
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#como-denunciar">
-                Como Fazer Denúncias
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#denuncias">
-                Denúncias
-              </a>
-            </li>
-            <Link to="/cadastro" style={{textDecoration:"none"}}>
-            <li className="nav-item">
-              <a className="nav-link" href="#contact">
-                Cadastro
-              </a>
-            </li>
+            <Link to={"/"} style={{ textDecoration: "none" }}>
+              <li className="nav-item">
+                <p className="nav-link">Home</p>
+              </li>
+            </Link>
+            <Link to={"/sobrenos"} style={{ textDecoration: "none" }}>
+              <li className="nav-item">
+                <p className="nav-link">Sobre Nós</p>
+              </li>
+            </Link>
+            <Link to={"/contato"} style={{ textDecoration: "none" }}>
+              <li className="nav-item">
+                <p className="nav-link">Contato</p>
+              </li>
+            </Link>
+            <Link to={"/galeria"} style={{ textDecoration: "none" }}>
+              <li className="nav-item">
+                <p className="nav-link">Galeria</p>
+              </li>
+            </Link>
+            <Link to="/cadastro" style={{ textDecoration: "none" }}>
+              <li className="nav-item">
+                <p className="nav-link">Cadastro</p>
+              </li>
             </Link>
           </ul>
         </div>

@@ -1,0 +1,15 @@
+.section-page {
+  background: rgb(255, 204, 14);
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.section-forms-contact {
+  padding: 2rem;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
