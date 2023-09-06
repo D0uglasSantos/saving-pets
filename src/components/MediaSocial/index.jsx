@@ -1,4 +1,6 @@
 import React from "react";
+import "./styles.css"
+
 import FacebookIcon from "@mui/icons-material/Facebook";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import TwitterIcon from "@mui/icons-material/Twitter";

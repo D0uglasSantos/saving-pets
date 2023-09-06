@@ -1,13 +1,27 @@
 .section-page {
-  background: rgb(255, 204, 14);
+  /* background: rgb(255, 204, 14); */
+  background: #FFDD60;
   flex: 1;
   flex-wrap: wrap;
+}
+
+.section-info-contact{
+    flex: .7;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.div-info-contact{
+    display: flex;
+    gap: 1rem;
 }
 
 .section-forms-contact {
   padding: 2rem;
   display: flex;
-  flex: 1;
+  flex: .4;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;

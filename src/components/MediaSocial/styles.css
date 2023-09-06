@@ -1,0 +1,75 @@
+.section-media-social {
+  padding: 1rem;
+}
+
+.icon-facebook {
+  background: rgb(7, 37, 77);
+  color: white;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.icon-facebook:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 11px rgba(18, 122, 234, 0.586);
+}
+
+.icon-whatsapp {
+  background: rgba(37, 211, 96, 1) ;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  color: white;
+}
+
+.icon-whatsapp:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 11px rgba(7, 219, 106, 0.586);
+}
+
+.icon-twitter {
+  background:rgba(6, 94, 128, 1) ;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  color: white;
+}
+
+.icon-twitter:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 11px rgba(11, 132, 192, 0.59);
+}
+
+.icon-instagram {
+  background: rgba(204, 18, 81, 1);
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  color: white;
+}
+
+.icon-instagram:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 11px rgb(204, 18, 81, 0.59);
+}

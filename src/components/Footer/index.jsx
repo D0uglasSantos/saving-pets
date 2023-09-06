@@ -1,12 +1,10 @@
 import React from "react";
 import "./style.css";
 import Logo from "../../assets/images/logos/logo-footer-saving-pets.svg";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import Button from "../Button";
 import { Link } from "react-router-dom";
+
+import Button from "../Button";
+import MediaSocial from "../MediaSocial";
 
 const Footer = () => {
   return (
@@ -47,23 +45,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="section-media-social">
-          <h4 className="mb-4">Siga-nos</h4>
-          <div className="row justify-content-center gap-4">
-            <div className="icon-facebook">
-              <FacebookIcon />
-            </div>
-            <div className="icon-twitter">
-              <TwitterIcon />
-            </div>
-            <div className="icon-whatsapp">
-              <WhatsAppIcon />
-            </div>
-            <div className="icon-instagram">
-              <InstagramIcon />
-            </div>
-          </div>
-        </div>
+        <MediaSocial/>
       </div>
     </section>
   );

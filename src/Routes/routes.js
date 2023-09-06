@@ -7,10 +7,12 @@ import Cadastro from "../pages/Cadastro";
 import PoliticaPrivacidade from "../pages/PrivacyPolicy";
 import AboutUs from "../pages/AboutUs";
 import Contact from "../pages/Contact";
+import ScrollToTop from "./ScrollToTop";
 
 const AppRoutes = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
