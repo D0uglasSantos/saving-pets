@@ -1,6 +1,10 @@
-.section-sobre-nos{
+.section-sobre-nos {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.title{
-    padding-top: 5rem;
+.title {
+  padding-top: 5rem;
 }
